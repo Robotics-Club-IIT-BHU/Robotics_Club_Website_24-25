@@ -8,3 +8,6 @@ body{
 a{
   @apply text-slate-200 text-lg;
 }
+nav{
+  @apply z-10;
+}

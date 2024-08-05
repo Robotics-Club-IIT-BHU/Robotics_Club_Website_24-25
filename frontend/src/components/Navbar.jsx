@@ -3,7 +3,7 @@ import "../pages/blogs.css";
 const Navbar = () => {
   return (
     <>
-      <header className="flex items-center p-4 justify-center">
+      <header className="nav flex items-center p-4 justify-center">
         <a href="#" className="flex-shrink-0">
           <img
             src="https://avatars.githubusercontent.com/u/70689435?s=200&v=4"
