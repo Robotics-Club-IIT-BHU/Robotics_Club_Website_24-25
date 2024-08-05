@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './About.css';
+import Navbar from '../components/Navbar';
 
 function About(){
-    return (<div>
+    return (<>
+    <Navbar/>
         <p className='heading'>WE ARE ROBO ENTHUSIASTS SQUAD, THRILLED BY WHAT WE DO</p>
         <div className='image'>
           <div className='gradient-border'>
@@ -128,7 +130,7 @@ function About(){
         <br />
         <br />
 
-    </div>);
+    </>);
 }
 
 export default About;

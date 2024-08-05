@@ -1,6 +1,10 @@
-function Home() {
+import React from 'react'
+import Navbar from '../components/Navbar'
+
+const Home = () => {
   return (
     <>
+    <Navbar/>
       <div className="flex flex-col">
         <div className="flex justify-between">
           <div className="flex flex-col">
@@ -213,7 +217,7 @@ function Home() {
         </div>
       </div>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home
