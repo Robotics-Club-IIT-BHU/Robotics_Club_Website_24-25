@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-import BlogPage from "./blogspage";
 const Blogs = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = 3; // temporary value
