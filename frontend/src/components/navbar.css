@@ -1,0 +1,15 @@
+.gradient-border {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: larger;
+    font-family: "helvetica",sans-serif;
+    padding: 5px;
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg ,#FF6B00 0%,#8F3DE2 100%);
+    border-image-slice: 1;
+  
+     } 
+  
