@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
-
+import BlogPage from "./blogspage";
 const Blogs = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = 3; // temporary value
@@ -275,7 +275,7 @@ const Blogs = () => {
                   beatae velit, voluptates reiciendis earum blanditiis non
                   laudantium eius
                 </p>
-                <a href="#" className="text-blue-400 float-end">
+                <a href="/blogpage" className="text-blue-400 float-end">
                   See full
                 </a>
               </div>
@@ -311,7 +311,7 @@ const Blogs = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Error ad quo quia earum amet ipsum illum reiciendis
                     temporibus, dicta sequi sunt, iusto cupiditate.
-                    <a href="#" className="text-blue-400">
+                    <a href="/blogpage" className="text-blue-400">
                       See full
                     </a>
                   </p>
