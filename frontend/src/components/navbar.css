@@ -12,4 +12,16 @@
     border-image-slice: 1;
   
      } 
+.gradient-roboreg{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    text-transform: capitalize;
+    color: aliceblue;
+    font-size: larger;
+    font-family: "helvetica",sans-serif;
+    border: 3px solid;
+    border-image-source: linear-gradient(90deg ,#6EE7B7 0%, #2563EB 100%);
+    border-image-slice: 1;
   
+}
