@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "../components/Navbar";
+import { IoArrowBackCircleOutline } from "react-icons/io5";
 const BlogPage = () => {
     return (
       <>
@@ -7,7 +8,7 @@ const BlogPage = () => {
         <div className="bg-black text-white">
             <main>
                 <div className="px-20 mt-10">
-                    <h1 className="text-white text-3xl">Sustainability Web Designs</h1>
+                    <h1 className="text-white text-3xl">Sustainability Web Designs <a href="/blogs" className="float-end"><IoArrowBackCircleOutline style={{ fontSize: '3rem' }}/></a></h1>
                     <h1 className="text-purple-200 text-3xl">Accessible & Best SEO Practices</h1>
                 </div>
 
