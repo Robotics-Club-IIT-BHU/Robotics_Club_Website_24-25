@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './About.css';
 import Navbar from '../components/Navbar';
-
+import Footer from "../components/Footer";
 function About(){
     return (<>
     <Navbar/>
@@ -129,7 +129,7 @@ function About(){
         </div>
         <br />
         <br />
-
+        <Footer/>
     </>);
 }
 

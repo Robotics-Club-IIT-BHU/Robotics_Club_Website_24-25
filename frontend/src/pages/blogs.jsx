@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Background from "../components/Background";
+import Footer from "../components/Footer";
 const Blogs = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const totalPages = 3; // temporary value
@@ -183,6 +184,7 @@ const Blogs = () => {
             </li>
           </ul>
         </nav>
+        <Footer/>
       </main>
     </>
   );
