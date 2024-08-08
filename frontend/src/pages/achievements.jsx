@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import './achievements.css';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -7,8 +7,8 @@ const Achievements = () => {
   return (
     <>
       <Navbar />
-      <main className="main-container">
-        <div className="main">
+      <main className="flex flex-col">
+        <div className="flex-1">
           <section>
             <div className="rob">
               <article>
@@ -20,9 +20,9 @@ const Achievements = () => {
           </section>
 
           <section>
-            <div className="main2">
-              <p id="p">our achievements</p>
-              <div className="boxes-container">
+            <div className="relative mx-20">
+              <h1 className='text-7xl text-white flex justify-center font-bold my-20'>Our Achievements</h1>
+              <div className="container">
                 <div className="box1"></div>
                 <div className="box2"></div>
                 <div className="box3"></div>
