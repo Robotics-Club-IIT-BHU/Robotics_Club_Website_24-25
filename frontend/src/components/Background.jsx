@@ -110,7 +110,7 @@ const Background = () => {
               </svg>
             </div>
           </div>
-          <div className="flex justify-between mt-60">
+          <div className="flex justify-between mt-30">
             <div className="flex flex-col">
               <svg
                 width="649"

@@ -11,3 +11,8 @@ a{
 nav{
   @apply z-10;
 }
+.card{
+  @apply bg-gray-800 rounded-lg p-4  w-[280px] h-[350px];
+}
+
+/* border-4 border-transparent hover:border-blue-500 hover:border-opacity-100 transition duration-500 ease-in-out */
