@@ -4,6 +4,7 @@ import HomePage from "./pages/homepage";
 import About from './pages/About';
 import Blogs from './pages/blogs';
 import BlogPage from './pages/blogspage';
+import Achievements from './pages/achievements';
 const App = () => {
   return (
     <BrowserRouter>
@@ -12,8 +13,8 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogpage" element={<BlogPage/>}/>
-        {/* <Route path="/events" element={<Events />} />
-        <Route path="/achievements" element={<Achievements/>} /> */}
+        {/* <Route path="/events" element={<Events />} />*/}
+        <Route path="/achievements" element={<Achievements/>} /> 
       </Routes>
     </BrowserRouter>
   )
