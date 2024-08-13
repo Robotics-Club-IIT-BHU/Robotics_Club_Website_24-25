@@ -11,6 +11,9 @@ a{
 nav{
   @apply z-10;
 }
+footer{
+  @apply z-50;
+}
 .card{
   @apply bg-gray-800 rounded-lg p-4  w-[280px] h-[350px];
 }
