@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './About.css';
+import './Team.css';
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
-function About(){
+function Team(){
     return (<>
     <Navbar/>
         <p className='heading'>WE ARE ROBO ENTHUSIASTS SQUAD, THRILLED BY WHAT WE DO</p>
@@ -133,5 +133,5 @@ function About(){
     </>);
 }
 
-export default About;
+export default Team;
 
