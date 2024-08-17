@@ -17,7 +17,7 @@ const Navbar = () => {
             <a href="/home">Events</a>
             <a href="/achievements">Achievements</a>
             <a href="/blogs">Blogs</a>
-            <a href="/about">About Us</a>
+            <a href="/about">Team</a>
             <a
               href="#"
               className=" px-8 py-2 z-10 inset-0 border-2 border-transparent gradient-roboreg"
