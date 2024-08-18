@@ -47,24 +47,21 @@ const Blogs = () => {
                 </svg>
               </a>
               <p className="text-green-500 text-lg my-1 font-semibold">
-                Robotics
+              LLM Agents for Tool Planning & Function Calling - Part 1
               </p>
               <div className="flex justify-between items-center">
-                <div className="text-gray-500 my-1">By Writer Name</div>
-                <div className="text-white">23 Dec.</div>
-              </div>
+  <div className="text-gray-500 my-1">
+    By <a href="" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Dhruv Jain</a>
+  </div>
+  <div className="text-white">23 Dec.</div>
+</div>
+
               <div className="clear-both">
                 <p className="text-gray-300 text-md">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                  ad quo quia earum amet ipsum illum reiciendis temporibus,
-                  dicta sequi sunt, iusto cupiditate. Officiis animi recusandae
-                  numquam minima dolor iure.Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Nam animi a in veniam quis
-                  explicabo autem aliquam perferendis error assumenda qui,
-                  beatae velit, voluptates reiciendis earum blanditiis non
-                  laudantium eius
+                This post introduces the work on developing efficient LLM agents for external tool usage, focusing on reasoning, planning, and function calling. The project originated from a problem statement proposed by DevRev at Inter IIT Tech Meet 12.0 and evolved into a research paper. For more details, see our arxiv preprint titled SwissNYF: Tool Grounded LLM Agents for Bl...
                 </p>
-                <a href="/blogpage" className="text-blue-400 float-end">
+                <a href="https://maximus-21.github.io/LLM-Agents-for-Tool-Planning-and-Function-Calling-Part-1/" className="text-blue-400 float-end">
+
                   See full
                 </a>
               </div>
@@ -73,10 +70,10 @@ const Blogs = () => {
         </div>
 
         <h1 className="text-center text-[#eee] font-bold text-3xl mt-8 z-10 relative">
-          RELATED BLOGS
+        More blogs coming soon!!
         </h1>
 
-        <div className="max-w-6xl mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 z-10 relative">
+        {/* <div className="max-w-6xl mx-auto mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 z-10 relative">
           {[...Array(3)].map((_, index) => (
             <div
               key={index}
@@ -108,9 +105,9 @@ const Blogs = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
-        <nav
+        {/* <nav
           aria-label="Page navigation"
           className="mt-8 flex justify-center z-10 relative"
         >
@@ -183,7 +180,7 @@ const Blogs = () => {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
         <Footer/>
       </main>
     </>
