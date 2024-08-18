@@ -51,7 +51,7 @@ const Blogs = () => {
               </p>
               <div className="flex justify-between items-center">
   <div className="text-gray-500 my-1">
-    By <a href="" className="text-blue-500 hover:underline" target="_blank" rel="noopener noreferrer">Dhruv Jain</a>
+    By <a href="https://www.linkedin.com/in/dhruv-jain-2b4537229" className="text-gray-500  hover: text-blue-400 " target="_blank" rel="noopener noreferrer">Dhruv Jain</a>
   </div>
   <div className="text-white">23 Dec.</div>
 </div>
