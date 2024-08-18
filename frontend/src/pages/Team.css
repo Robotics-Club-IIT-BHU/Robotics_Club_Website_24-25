@@ -29,16 +29,18 @@ body{
     font-weight: 700;
     font-size: 44px;    
     color: #FFFFFF;
-    margin-left: 400px;
+    text-align: center;
+    margin-bottom: 20px;
   }
-  .members{
-    margin-left: 400px;
+  .members{    
     display: flex;
+    justify-content: center;
     gap: 90px;
   }
   .member{
-    height: 250px;
-    width: 213px;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
   }
   .members p{
     font-family: Inter;
@@ -49,5 +51,30 @@ body{
   }
   .social{
     display: flex;
-    gap: 30px;
+    gap: 70px;
+  }
+  
+
+  .core{
+    display: flex;
+    gap: 420px;
+  }
+  .coreMember>a{
+    color: blue;
+    text-decoration: underline;
+  }
+  .new{
+    font-family: 'Merriweather';
+  }
+  .sp{
+    gap: 70px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .coreMember{
+    width: 200px;
+  }
+  #post{
+    font-size: 20px;
+    margin-top: 0px;
   }
