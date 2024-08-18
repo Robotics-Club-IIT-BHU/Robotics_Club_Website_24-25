@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './Team.css';
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
+import { FaInstagramSquare } from "react-icons/fa";
 function Team(){
     return (<>
     <Navbar/>
@@ -11,17 +12,17 @@ function Team(){
 
         <p className='sub new'>Meet Our Flagbearers</p>
         <br />
-        <p className='item'>Secretaries :</p>
+        <p className='item'>Secretaries</p>
         <div className='members'>
             <div>
               <img className='member' src="./src/assets/sd.jpg" alt="" />    
               <p>Sammit Dhar</p>
               <div className='social'>
                   
-              <a href="https://www.instagram.com/sammit.dhar?igsh=cDFyNjg2Mzl0bHlj"><img src="./src/assets/ig.png" alt="" height={"25px"} width={"18px"} /></a>
-              <a href="https://www.linkedin.com/in/sammit-dhar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="./src/assets/linkedin.png" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://www.instagram.com/sammit.dhar?igsh=cDFyNjg2Mzl0bHlj"><img src="./src/assets/ig.png" alt="" height={"40px"} width={"40px"} /></a>
+              <a href="https://www.linkedin.com/in/sammit-dhar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="./src/assets/linkedin.png" alt="" height={"35px"} width={"35px"} /></a>
               
-              <a href="https://github.com/sdhar04"><img src="./src/assets/git.jpg" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://github.com/sdhar04"><img src="./src/assets/git.jpg" alt="" height={"33px"} width={"33px"} /></a>
               </div>            
             </div>
             <div>
@@ -29,10 +30,10 @@ function Team(){
               <p>Rohan Jena</p>
               <div className='social'>
                  
-              <a href="https://www.instagram.com/rohanjena50?igsh=MTR5aWl0NXR4eGJ2dg=="><img src="./src/assets/ig.png" alt="" height={"25px"} width={"18px"} /></a>
-              <a href="https://www.linkedin.com/in/rohan-jena-a69b23262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./src/assets/linkedin.png" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://www.instagram.com/rohanjena50?igsh=MTR5aWl0NXR4eGJ2dg=="><img src="./src/assets/ig.png" alt="" height={"40px"} width={"40px"} /></a>
+              <a href="https://www.linkedin.com/in/rohan-jena-a69b23262?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./src/assets/linkedin.png" alt="" height={"35px"} width={"35px"} /></a>
               
-              <a href="https://github.com/RohanJena"><img src="./src/assets/git.jpg" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://github.com/RohanJena"><img src="./src/assets/git.jpg" alt="" height={"33px"} width={"33px"} /></a>
               </div>            
             </div>
             <div>
@@ -40,16 +41,16 @@ function Team(){
               <p>Krishnendu Chowdhury</p>   
               <div className='social'>
                 
-              <a href="https://www.instagram.com/krishnendu8904"><img src="./src/assets/ig.png" alt="" height={"25px"} width={"18px"} /></a>
-              <a href="https://www.linkedin.com/in/krishnendu-chowdhury-405938257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="./src/assets/linkedin.png" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://www.instagram.com/krishnendu8904"><img src="./src/assets/ig.png" alt="" height={"40px"} width={"40px"} /></a>
+              <a href="https://www.linkedin.com/in/krishnendu-chowdhury-405938257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><img src="./src/assets/linkedin.png" alt="" height={"38px"} width={"38px"} /></a>
               
-              <a href="https://github.com/Krishnendu8904"><img src="./src/assets/git.jpg" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://github.com/Krishnendu8904"><img src="./src/assets/git.jpg" alt="" height={"33px"} width={"33px"} /></a>
               </div>                         
             </div>                                  
         </div>
         <br />
         <br />
-        <p className='item'>Tech Leads :</p>
+        <p className='item'>Tech Leads</p>
         <div className='members'>
             <div>
               <img className='member' src="./src/assets/sp.jpg" alt="" />    
@@ -57,9 +58,9 @@ function Team(){
               <div className='social sp'>
                   
               
-              <a href="https://www.linkedin.com/in/shashwatgpatil/"><img src="./src/assets/linkedin.png" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://www.linkedin.com/in/shashwatgpatil/"><img src="./src/assets/linkedin.png" alt="" height={"38px"} width={"38px"} /></a>
               
-              <a href="https://github.com/ShashwatPatil"><img src="./src/assets/git.jpg" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://github.com/ShashwatPatil"><img src="./src/assets/git.jpg" alt="" height={"33px"} width={"33px"} /></a>
               </div>            
             </div>
             <div>
@@ -67,10 +68,10 @@ function Team(){
               <p>Ricktho Sarkar</p>
               <div className='social'>
                   
-              <a href="https://www.instagram.com/ricktho_sarkar__?utm_source=qr&igsh=MWlkMmVhM2l2Nmx1ag=="><img src="./src/assets/ig.png" alt="" height={"25px"} width={"18px"} /></a>
-              <a href="https://www.linkedin.com/in/rickthosarkar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./src/assets/linkedin.png" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://www.instagram.com/ricktho_sarkar__?utm_source=qr&igsh=MWlkMmVhM2l2Nmx1ag=="><img src="./src/assets/ig.png" alt="" height={"40px"} width={"40px"} /></a>
+              <a href="https://www.linkedin.com/in/rickthosarkar?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./src/assets/linkedin.png" alt="" height={"38px"} width={"38px"} /></a>
               
-              <a href="https://github.com/Ricktho1"><img src="./src/assets/git.jpg" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://github.com/Ricktho1"><img src="./src/assets/git.jpg" alt="" height={"33px"} width={"33px"} /></a>
               </div>                             
             </div>
             <div>
@@ -78,10 +79,10 @@ function Team(){
               <p>Akshat Shrivastava</p>   
               <div className='social'>
                  
-              <a href="https://www.instagram.com/akshatshrivastava1104?igsh=MTZoeTd0dGhiNzNyNw=="><img src="./src/assets/ig.png" alt="" height={"25px"} width={"18px"} /></a>
-              <a href="https://www.linkedin.com/in/akshat-shrivastava-74ba2724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./src/assets/linkedin.png" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://www.instagram.com/akshatshrivastava1104?igsh=MTZoeTd0dGhiNzNyNw=="><img src="./src/assets/ig.png" alt="" height={"40px"} width={"40px"} /></a>
+              <a href="https://www.linkedin.com/in/akshat-shrivastava-74ba2724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./src/assets/linkedin.png" alt="" height={"38px"} width={"38px"} /></a>
               
-              <a href="https://github.com/codemaster1104"><img src="./src/assets/git.jpg" alt="" height={"25px"} width={"18px"} /></a>
+              <a href="https://github.com/codemaster1104"><img src="./src/assets/git.jpg" alt="" height={"33px"} width={"33px"} /></a>
               </div>                         
             </div>   
                                
@@ -172,7 +173,7 @@ function Team(){
         
         <br />
         <br />
-        <p className='item'>Team Leads:</p>
+        <p className='item'>Team Leads</p>
         <div className='members core'>
           <div className='coreMember'>
             <p>Shreya Sinha</p>  
@@ -195,7 +196,7 @@ function Team(){
         </div>
         <br />
         <br />
-        <p className='item'>Contributors:</p>
+        <p className='item'>Contributors</p>
         <div className='members core'>
           <div className='coreMember'>
             <p>Abhinandan Chandra</p>
@@ -208,7 +209,7 @@ function Team(){
         </div>
         <div className='members core'>
           <div className='coreMember'>
-            <p>Aabha Rajput</p>
+            <p>Aabha</p>
             <a href="https://www.linkedin.com/in/aabha-rajput-3a9988289/">LinkedIn</a>
           </div>
           <div className='coreMember'>
