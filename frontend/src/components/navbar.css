@@ -1,15 +1,33 @@
-.gradient-roboreg{
+.gradient-roboreg {
     position: relative;
     display: inline-block;
     list-style-type: none;
     text-transform: capitalize;
     color: aliceblue;
     font-size: larger;
-    font-family: "helvetica",sans-serif;
+    font-family: "helvetica", sans-serif;
     border: 3px solid;
-    border-image-source: linear-gradient(90deg ,#6EE7B7 0%, #2563EB 100%);
+    border-image-source: linear-gradient(90deg, #6EE7B7 0%, #2563EB 100%);
     border-image-slice: 1;
-}
+    border-radius: 50px; /* Makes the button border round */
+    animation: pulse 1.5s infinite, rotate 2s infinite; /* Adds multiple animations */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  
 .gradient-card{
     position: relative;
     display: inline-block;
@@ -27,7 +45,7 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    border-radius: 25px; 
+    border-radius: 100px; 
     padding: 0.5px; 
     background: linear-gradient(90deg, #6EE7B7 0%, #2563EB 100%); 
 }

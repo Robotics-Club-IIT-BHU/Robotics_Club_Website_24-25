@@ -3,10 +3,10 @@ import '../components/navbar.css'
 const Navbar = () => {
   return (
     <>
-      <header className="flex items-center p-4 justify-center">
+      <header className="flex items-center p-2 justify-center">
         <a href="#" className="flex-shrink-0">
           <img
-            src="https://avatars.githubusercontent.com/u/70689435?s=200&v=4"
+            src="src\assets\roboclub_logo-transparent.png"
             alt="Logo"
             className="rounded-3xl w-[200px] h-[200px]  mr-40"
           />
