@@ -1,0 +1,156 @@
+.event-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden; /* Ensures the splash effect doesn’t overflow */
+}
+
+.event-container .desktop-card {
+  margin-bottom: 100px;
+  position: relative;
+  width: 90vw;
+  height: 40vw;
+  min-height: 200px;
+  max-height: 400px;
+  min-width: 500px;
+  max-width: 1000px;
+  background-color: #1e1e1e;
+  overflow: hidden; /* Ensures the splash effect doesn’t overflow */
+}
+
+.event-container .desktop-card::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 90%; /* Make it a circle */
+  background-color: #3b14ea; /* Splash color */
+  transform: scale(0); /* Start with no scale */
+  opacity: 0; /* Start with no opacity */
+  z-index: 5;
+  transition: opacity 0.3s ease, transform 0s ease; /* Smooth transition for opacity and scaling */
+}
+
+.event-container .desktop-card:hover::before {
+  animation: splash-animation 0.9s ease forwards; /* Trigger animation on hover */
+}
+
+@keyframes splash-animation {
+  0% {
+    transform: scale(0); /* Start from 0 scale */
+    opacity: 0; /* Start with no opacity */
+  }
+  100% {
+    transform: scale(2.5); /* Expand to cover about 80% of the container */
+    opacity: 0.82; /* Adjust opacity as needed */
+  }
+}
+.event-container .desktop-card .pic {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Hide any overflow to ensure the image fits within the container */
+  transition: all 0.4s ease;
+  border-radius: 20px; /* Optional: Rounded corners */
+  border: 0.5rem solid #fff;
+}
+
+.event-container .desktop-card .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the entire container */
+  object-position: center; /* Center the image within the container */
+  transition: border-radius 0.4s ease; /* Smooth transition for border-radius */
+  border-radius: inherit; /* Inherit border-radius from the parent container */
+}
+
+.event-container button {
+  position: absolute;
+  left: 90%;
+  bottom: 7%;
+  width: 7%;
+  padding-top: 7%;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 400rem;
+  cursor: none;
+  outline: none;
+  transition: all 0.3s ease;
+  mix-blend-mode: hard-light;
+}
+
+.event-container button i {
+  font-size: 3rem;
+}
+
+.event-container .detail {
+  z-index: 30;
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: 15%;
+  width: 72%;
+  color: #ffffff;
+  opacity: 0;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  text-align: justify;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  transition: opacity 0.8s ease; /* Smooth transition for opacity */
+}
+
+.event-container .desktop-card:hover .detail {
+  opacity: 1; /* Show details on hover */
+}
+
+.event-container .desktop-card:hover .pic {
+  opacity: 0.9;
+  filter: blur(1px);
+}
+
+.event-container .desktop-card:hover i {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.event-container .desktop-card:hover button {
+  transform: scale(20.5);
+}
+
+.event-container .desktop-card:hover .vertical {
+  color: #1cc081;
+  text-shadow: 0 0 1px #666;
+}
+
+.event-container .vertical {
+  z-index: 10;
+  position: absolute;
+  top: 5%;
+  right: 4%;
+  color: #000;
+  font-weight: bold;
+  opacity: 0.7;
+  font-size: calc(1vw + 1vh);
+  letter-spacing: 1px;
+  writing-mode: vertical-lr;
+  font-family: "Montserrat", sans-serif;
+}
+
+.event-container h2 {
+  pointer-events: none;
+  z-index: 10;
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  bottom: 0;
+  right: 15%;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  -webkit-text-stroke: 0.5px var(--overlay);
+}
