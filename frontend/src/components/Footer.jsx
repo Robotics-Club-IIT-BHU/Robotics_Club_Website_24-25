@@ -9,7 +9,7 @@ const Footer = () => {
         <ul>
           <li><img src="https://avatars.githubusercontent.com/u/70689435?s=200&v=4" id="img" className="w-24 h-24" alt="robotics club" /></li>
           <li><h2 className="text-white text-xl mb-4 font-semibold">About Us</h2></li>
-          <li><p className="text-gray-400">Everything related to robotics club IIT BHU will be written here...</p></li>
+          <li><p className="text-gray-400">Our club is dedicated to empowering students with the knowledge and skills necessary to thrive in the rapidly-evolving field of robotics. </p></li>
           <div className="flex space-x-4 mt-4">
             <a href="https://www.facebook.com/robotics.iitbhu/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current text-white"><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.558 1.593-1.558h1.713V2.341c-.295-.039-1.309-.129-2.487-.129-2.463 0-4.144 1.507-4.144 4.280v2.422H8.242v3.209h2.234v8.196H13.397z"/></svg></a>
             
@@ -38,7 +38,7 @@ const Footer = () => {
       <div>
         <ul>
           <li><h2 className="text-white text-xl mb-4 font-semibold">Join us</h2></li>
-          <li><a href="#" className="text-gray-400 hover:text-gray-200">Internships</a></li>
+        
           <li><a href="#" className="text-gray-400 hover:text-gray-200">Collaborations</a></li>
           <li><a href="#" className="text-gray-400 hover:text-gray-200">Donate</a></li>
         </ul>
@@ -48,7 +48,7 @@ const Footer = () => {
           <li><h2 className="text-white text-xl mb-4 font-semibold">Contact Us</h2></li>
           <li><p className="text-gray-400">IIT (BHU) Varanasi</p></li>
           <li><p className="text-gray-400">Uttar Pradesh ,Varanasi, 221005</p></li>
-          <li><p className="text-gray-400">Email: <a href="mailto:info@roboticsclub.com" className="text-blue-400">info@roboticsclub.com</a></p></li>
+          <li><p className="text-gray-400">Email: <a href="mailto:info@roboticsclub.com" className="text-blue-400">roboticsclubiitbhuvaranasi@gmail.com</a></p></li>
         </ul>
       </div>
       </div>
