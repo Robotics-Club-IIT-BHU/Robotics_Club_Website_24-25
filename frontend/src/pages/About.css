@@ -40,8 +40,6 @@ body{
   .member{
     height: 220px;
     width: 220px;
-    margin-left: 0px;
-    margin-right: 0px;
     border-radius: 50%;
   }
   .members p{
@@ -50,7 +48,6 @@ body{
     font-size: 29px;    
     color: #FFFFFF;
     margin-top: 30px;
-    
   }
   .social{
     display: flex;
@@ -59,12 +56,12 @@ body{
   
 
   .core{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    
+    display: flex;
+    gap: 420px;
   }
-  .coreMember{
-    width: 400px;
+  .coreMember>a{
+    color: blue;
+    text-decoration: underline;
   }
   .new{
     font-family: 'Merriweather';
@@ -74,17 +71,10 @@ body{
     margin-left: 35px;
     margin-right: 35px;
   }
-  
+  .coreMember{
+    width: 200px;
+  }
   #post{
     font-size: 20px;
     margin-top: 0px;
-  }
-  .col1{
-    grid-column: 4/5;
-  }
-  .col2{
-    grid-column: 6/7;
-  }
-  .colSP{
-    grid-column: 5/6;
   }
