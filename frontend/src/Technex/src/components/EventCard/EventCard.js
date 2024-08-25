@@ -15,7 +15,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">Technex</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -38,7 +38,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">Mazex</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -62,7 +62,7 @@ const EventCard = () => {
           <h2 className="large-head" font-size="10%">
             ROS installation Fest{" "}
           </h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -84,7 +84,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">La RoboLiga</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -106,7 +106,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">Summer Camp</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -128,7 +128,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">Winter Camp</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
