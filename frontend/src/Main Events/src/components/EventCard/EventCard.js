@@ -16,7 +16,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">RoboWars</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -34,7 +34,7 @@ const EventCard = () => {
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4gl_1Fm3lDzNe0zCBIQaMeN4bxmgwTa7p6QblK-1sKxEmxGVZfSTCKQ6VvqfdShpcdEI&usqp=CAU" />
           </div>
           <h2 className="large-head">Pixelate</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
@@ -55,7 +55,7 @@ const EventCard = () => {
             />
           </div>
           <h2 className="large-head">MicroMouse</h2>
-          <div className="vertical">Date : Releasing Soon....</div>
+          <div className="vertical">Date : </div>
           <button>
             <i className="fa fa-arrow-right"></i>
           </button>
